@@ -7,7 +7,9 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(224, 253, 221);
+  background-image: url(Bilder/felt.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Alata", sans-serif;
 }
 img {
@@ -16,15 +18,16 @@ img {
 
 header {
   padding: 20px;
-  background: linear-gradient(to right, rgb(166, 231, 127), rgb(126, 234, 244));
+  background: linear-gradient(to right, rgb(212, 22, 22), rgb(170, 7, 7));
   color: white;
   font-size: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 h1 {
   justify-content: center;
   text-align: center;
   padding: 40px;
-  color: rgb(166, 231, 127);
+  color: white;
   }
 
 .kortene {
