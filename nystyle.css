@@ -1,14 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  height: 100vh;
+  background-color: rgb(224, 253, 221);
+  font-family: "Alata", sans-serif;
 }
 img {
   width: 100%;
 }
+
+header {
+  padding: 20px;
+  background: linear-gradient(to right, rgb(166, 231, 127), rgb(126, 234, 244));
+  color: white;
+  font-size: 20px;
+}
+h1 {
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  color: rgb(166, 231, 127);
+  }
 
 .kortene {
   display: grid;
@@ -21,9 +38,13 @@ img {
 .kort {
   width: 200px;
   height: 200px;
-  border: 2px solid black;
+  border: 5px solid black;
   position: relative;
 }
 .kort > img {
   position: absolute;
+}
+
+.none {
+  display: none;
 }
