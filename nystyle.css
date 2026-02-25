@@ -3,7 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  height: 100vh;
+}
 img {
   width: 100%;
+}
+
+.kortene {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 840px;
+  margin: 0 auto;
+  height: 100vh;
+}
+.kort {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  position: relative;
+}
+.kort > img {
+  position: absolute;
 }
