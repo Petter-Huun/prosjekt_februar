@@ -23,6 +23,16 @@ header {
   font-size: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+footer{
+  padding: 20px;
+  margin-top: 30px;
+  background: linear-gradient(to right, rgb(212, 22, 22), rgb(170, 7, 7));
+  color: white;
+  font-size: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 h1 {
   justify-content: center;
   text-align: center;
