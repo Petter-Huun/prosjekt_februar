@@ -1,9 +1,9 @@
 const kort = document.querySelectorAll(".kort")
 
-kort.forEach(function (elm) {
+kort.forEach(elm => {
     elm.addEventListener("click", () => {
         console.log("kortet ble klikket")
-        elm.classList.add("filp")
+        elm.classList.add("flip")
     })
 })
 
