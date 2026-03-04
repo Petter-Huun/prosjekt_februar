@@ -61,3 +61,7 @@ img.flip{
   height: 175px;
   border-radius: 5px;
 }
+
+.flip {
+  z-index: 5;
+}
