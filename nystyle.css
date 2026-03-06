@@ -80,6 +80,6 @@ footer {
   display: none;
 }
 
-kort.flip .bak {
+.kort.flip .bak {
   display: block;
 }
