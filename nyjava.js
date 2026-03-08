@@ -1,5 +1,14 @@
 const kort = document.querySelectorAll(".kort")
 
+function stokkKort () {
+    kort.forEach(element => {
+        let tilfeldig = Math.floor(Math.random() * 18)
+        element.style.order = tilfeldig
+    })
+}
+
+stokkKort()
+
 let kort1 = null
 let kort2 = null 
 
@@ -13,7 +22,7 @@ kort.forEach(elm => {
         } else if (kort2 === null) {
             kort2 = elm 
 
-            setTimeout(sjekkKort, 1000)
+            setTimeout(sjekkKort, 500)
         }
     })
 })
@@ -45,5 +54,7 @@ function sjekkVinn() {
         seier.innerHTML ="Du vant"
     }
 }
+
+    
 
 
